@@ -62,7 +62,7 @@ jobs:
 
     steps:
 
-    - name: Restore cached build
+    - name: Cache restore
       uses: actions/cache@v3
       with:
         key: cached-build-${{github.sha}}
